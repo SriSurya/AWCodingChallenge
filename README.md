@@ -1,3 +1,22 @@
+### Sri Chelamkuri Updates Start###
+Initaila understanding of project code : 30 mins
+ Bug #1 and #2: around 45 mins
+  
+Request #1: 30 mins
+  Updated LibraryService. SearchMovies method . added OrderBy, OrderByDescending and used regex to ignore the pattern
+   
+ Request #2: 30 mins
+      read the franchise text and joined with the movies list 
+ Request#  3: around 2 hrs. Used hard coded movie values as data as I dont want to depend on other libraries
+              Created .net Core WebAPi using repositories pattern. returned ok and notfound response 
+ Request #4 : 2 hrs. spent some time on using angular material as it has buiol-in sort column but getting ts script error particular to my machine. so continued with simple UI
+   
+   Technical Debt: Didnt complete it as having issues with "Microsoft.Extensions.DependencyInjection.abstractions ". It will be resolve if spend more time. 
+   have to create mock objects using MOq and map libraryService interface with the generated mock objects.
+Then initialize IOC container in test class
+### Sri Chelamkuri Updates End###
+
+
 # Movie Library Instructions
 
 This solution contains four different projects:
