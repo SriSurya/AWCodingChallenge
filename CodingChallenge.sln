@@ -15,7 +15,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movies", "Movies", "{95703E62-F358-483A-B308-409D85B12163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.API", "Movie.API\Movie.API.csproj", "{3DDDE391-554C-4F87-8F72-DC417FC60578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie.API", "Movie.API\Movie.API.csproj", "{3DDDE391-554C-4F87-8F72-DC417FC60578}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularApp", "AngularApp", "{58DB6077-7039-4156-94E4-B92425B0C4C7}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "aw-coding-challenge-ui", "..\..\..\aw-coding-challenge-ui\", "{6F2FD143-0D03-4530-8455-75F23CF27849}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59656"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\aw-coding-challenge-ui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59656\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59656"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\aw-coding-challenge-ui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59656\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59656"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +65,10 @@ Global
 		{3DDDE391-554C-4F87-8F72-DC417FC60578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DDDE391-554C-4F87-8F72-DC417FC60578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DDDE391-554C-4F87-8F72-DC417FC60578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2FD143-0D03-4530-8455-75F23CF27849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2FD143-0D03-4530-8455-75F23CF27849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2FD143-0D03-4530-8455-75F23CF27849}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2FD143-0D03-4530-8455-75F23CF27849}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +76,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{95703E62-F358-483A-B308-409D85B12163} = {FC364568-91A0-4969-B05A-5B4E16B4A566}
 		{3DDDE391-554C-4F87-8F72-DC417FC60578} = {95703E62-F358-483A-B308-409D85B12163}
+		{6F2FD143-0D03-4530-8455-75F23CF27849} = {58DB6077-7039-4156-94E4-B92425B0C4C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BF820DF-D211-4209-885D-1477D0DBA96F}
