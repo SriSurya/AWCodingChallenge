@@ -7,8 +7,10 @@ Request #1: 30 mins
    
  Request #2: 30 mins
       read the franchise text and joined with the movies list 
+      
  Request#  3: around 2 hrs. Used hard coded movie values as data as I dont want to depend on other libraries
               Created .net Core WebAPi using repositories pattern. returned ok and notfound response 
+              
  Request #4 : 2 hrs. spent some time on using angular material as it has buiol-in sort column but getting ts script error particular to my machine. so continued with simple UI
    
    Technical Debt: Didnt complete it as having issues with "Microsoft.Extensions.DependencyInjection.abstractions ". It will be resolve if spend more time. 
