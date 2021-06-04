@@ -1,0 +1,30 @@
+
+    <div style="margin: 2%;">
+        <h3>Search Movie By Title</h3>
+        <input type="text" name="movieTitleSearch" id="movieTitleSearch"   required minlength="3" (input)="getMoviesByTitle($event.target.value)" />
+
+       
+    </div>
+
+
+<table mat-table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Release Date</th>
+            <th>Rating</th>
+            <th>Franchise</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let mov of movies" class="grid-row">
+            <td>{{ mov.id }}</td>
+           <td>{{ mov.title }}</td>
+           <td>{{ mov.releaseDate }}</td>
+           <td>{{ mov.rating }}</td>
+           <td>{{ mov.franchise }}</td>
+        </tr>
+    </tbody>
+</table>
+
